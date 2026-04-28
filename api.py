@@ -51,7 +51,7 @@ async def secure_api(request: Request, call_next):
 
     return await call_next(request)
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)", "Referer": "https://www.miruro.online/"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)", "Referer": "https://www.miruro.tv/"}
 ANILIST_URL = "https://graphql.anilist.co"
 MIRURO_PIPE_URL = "https://www.miruro.to/api/secure/pipe"
 
